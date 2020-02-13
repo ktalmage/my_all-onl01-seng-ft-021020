@@ -7,5 +7,5 @@ def my_all?(collection)
     i+=1
   end
 end
-collection = [1,2,3]
+
 puts my_all?(collection) {|i| i*i}
