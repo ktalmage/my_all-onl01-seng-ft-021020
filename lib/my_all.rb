@@ -8,4 +8,4 @@ def my_all?(collection)
   end
 end
 
-puts my_all?(collection) {|i| i*i}
+puts my_all?(collection) {|i| i<2}
