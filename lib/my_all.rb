@@ -6,6 +6,7 @@ def my_all?(collection)
     yield(collection[i])
     i+=1
   end
+  collection
 end
 
-puts my_all?([1,2,3]) {|i| i<2}
+my_all?([1,2,3]) {|i| i<2}
